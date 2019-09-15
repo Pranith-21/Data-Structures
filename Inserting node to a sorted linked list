@@ -1,4 +1,5 @@
 //INSERTING A NODE TO A SORTED LINKED LIST
+//STACK INPLEMENTATION USING LINKED LIST
 #include <stdio.h>
 #include<stdlib.h>
 struct Node
@@ -83,7 +84,7 @@ void insert()
     struct Node *k=head;
     while(k->next!=NULL)
     {
-        if(d>(k->data)&& d<((k->next)->next))
+        if(d>(k->data)&& d<((k->next)->data))
         {
             struct Node *r=(struct Node*)malloc(sizeof(struct Node));
 
