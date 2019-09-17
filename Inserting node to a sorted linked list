@@ -1,5 +1,4 @@
-//INSERTING A NODE TO A SORTED LINKED LIST
-//STACK INPLEMENTATION USING LINKED LIST
+//INSERTING THE NODE TO A SORTED LINKED LIST
 #include <stdio.h>
 #include<stdlib.h>
 struct Node
@@ -11,7 +10,6 @@ struct Node
 struct Node *head=NULL;
 void create();
 void insert();
-void push();
 void display();
 int l=0;
 
